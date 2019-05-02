@@ -17,7 +17,7 @@ Install the package with:
 
   -  Require and initalize the logger at the very begening of the entry point of your Node.js application    
   -  If you are using express require and initalize the logger in ```bin/www``` file
-  -  Logger can over ride 4 console methods ("debug","info","log","warn"), depending on the initalization, by default it will overide all the four methods.
+  -  Logger can override 4 console methods ("debug","info","log","warn"), depending on the initalization, by default it will overide all the four methods.
 
 ```javascript
 const logger = require('@accubits/logger');
@@ -27,6 +27,7 @@ logger.init({
 });
 ````
 ```env ``` value will be ```production```   if its not provided.
+
 ```methods``` will be ```["debug","info","log","warn"]``` if its not provided.
 
 ## Logging
