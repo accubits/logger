@@ -15,12 +15,12 @@
     "logs"
   ],
   "bugs": {
-    "url": "https://github.com/arunjayakumar01/logger/issues",
+    "url": "https://github.com/accubits/logger/issues",
     "email": "aj@accubits.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arunjayakumar01/logger.git"
+    "url": "https://github.com/accubits/logger.git"
   },
   "publishConfig": {
     "access": "public"
