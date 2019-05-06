@@ -1,6 +1,6 @@
 {
   "name": "@accubits/logger",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "logging utility for nodejs, which replaces console methods with custom methods",
   "main": "index.js",
   "scripts": {

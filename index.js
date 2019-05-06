@@ -4,7 +4,7 @@ module.exports.init = (options) => {
 
     let methods = options.methods || config.overRideMethods;
     let env = options.env || config.productionEnvironment;
-    env = config.trueValues.indexOf(process.env[env]) < -1;
+    env = config.trueValues.indexOf(process.env[env]) > -1;
     if (!(methods instanceof Array)) {
         throw new Error("methods should be an array");
     }
